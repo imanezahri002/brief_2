@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +46,7 @@ ul li .menu{
 #hero{
     width: 100%;
     height: calc(100vh - 70px);
-    background-image: url("./imgs/background/home.jpg");
+    background-image: url("./imgs/background/home-COMP.jpg");
     background-size: cover;
 }
 #hero .hero{
@@ -111,7 +112,7 @@ left: 50%;
     top: 63rem;
     left: 22rem;
 }
- .cercle{ 
+.cercle{ 
     border-radius: 100%;
     width: 300px;
     height: 300px;
@@ -128,7 +129,7 @@ left: 50%;
 #collaboration{
     width: 100%;
     height: 570px;
-    background-image:url("./imgs/background/pexels-kinkate-208052.jpg") ;
+    background-image:url("./imgs/background/pexels-kinkate2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.5;
@@ -165,7 +166,7 @@ height: 70px;
 }
 footer{
     width: 100%;
-    height: 15rem;
+    height: 17rem;
     background-color: #A86364;
     color: #ffff;
 }
@@ -184,10 +185,8 @@ footer{
     font-weight: 300;
     font-size: 20px;
 }
-.contenu-footer svg{
-    height: 50px;
-    width: 50px;
-    margin: 10px;
+.contenu-footer i{
+     margin: 1rem;
 }
 .contenu-footer ul{
     font-size: 20px;
